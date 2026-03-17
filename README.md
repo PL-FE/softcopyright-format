@@ -255,6 +255,14 @@ A: 修改项目中的 package.json、setup.py 等配置文件中的version字段
 
 ## 版本历史
 
+### v1.1.0 (2026-03-17)
+- 发布二开版本 `softcopyright-format`，用于和原版 skill 区分
+- 新建公开仓库 `PL-FE/softcopyright-format`
+- README 开头补充原作者链接、二开身份与二开内容说明
+- 新增 `npx skills add PL-FE/softcopyright-format` 安装说明
+- 强化正式版生成前的信息确认规则
+- 增加对名称、版本号、产品描述、截图、源码范围、项目路径的主动追问要求
+
 ### v1.0.3 (2025-11-25)
 - 修复页眉页脚显示问题
 - 修复版本号读取路径错误
@@ -277,7 +285,8 @@ MIT License
 
 ## 作者
 
-Peterfei
+- 原作者：Peterfei
+- 二开维护：PL-FE
 
 ## 贡献
 

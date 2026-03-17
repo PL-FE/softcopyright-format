@@ -2,6 +2,40 @@
 
 本文档记录了 SoftCopyright 项目的所有重要更改。
 
+## [1.1.0] - 2026-03-17
+
+### 🎉 二开发布版本
+
+#### ✨ 新增与调整
+
+- **二开命名区分**
+  - 将 skill 名称调整为 `softcopyright-format`，用于和原版区分
+  - README、SKILL、package 元信息同步更新为二开版本标识
+
+- **仓库发布与分发**
+  - 创建公开 GitHub 仓库 `PL-FE/softcopyright-format`
+  - 增加适用于 skills 分发的仓库元信息
+  - 新增 `agents/openai.yaml`
+  - README 增补 `npx skills add PL-FE/softcopyright-format` 安装说明
+
+- **正式版生成前校验增强**
+  - 明确在生成正式版软著材料前，必须优先确认关键信息
+  - 增加对软件名称、版本号、产品描述、截图、源码范围、项目路径的主动追问规则
+  - 增加“未确认关键信息时不得直接输出正式版材料”的拦截规则
+
+#### 📝 文档更新
+
+- README 开头补充原作者链接与二开说明
+- README 安装部分补充 `npx skills` 安装方式
+- README 版本历史补充二开发布记录
+- SKILL.md 补充正式版流程约束与必要信息确认要求
+
+#### 🔧 工程整理
+
+- 调整 package 仓库地址、homepage、bugs 等字段
+- 增加 `.gitignore`，避免发布无关文件
+- 初始化独立 git 仓库并完成首次公开发布
+
 ## [1.0.3] - 2025-11-25
 
 ### 🎉 npm 包发布版本

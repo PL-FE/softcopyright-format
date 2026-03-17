@@ -1,6 +1,6 @@
 {
   "name": "softcopyright-format",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "智能软件著作权申请材料生成工具（二开格式增强版）",
   "main": "scripts/index.js",
   "scripts": {
