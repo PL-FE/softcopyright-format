@@ -1,0 +1,6 @@
+#!/bin/bash
+# SoftCopyright - 生成完整材料
+
+SKILL_DIR="$HOME/.claude/skills/softcopyright-format"
+
+"$SKILL_DIR/scripts/run.sh" "$SKILL_DIR/scripts/cli.js" generate "$@"

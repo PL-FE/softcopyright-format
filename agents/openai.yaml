@@ -1,0 +1,4 @@
+interface:
+  display_name: "SoftCopyright Format"
+  short_description: "二开版软著材料生成与格式完善"
+  default_prompt: "Use $softcopyright-format to generate or refine software copyright application materials for my project."
