@@ -32,6 +32,21 @@
 
 ## 安装
 
+### 使用 npx skills 安装（推荐）
+
+```bash
+npx skills add PL-FE/softcopyright-format
+```
+
+如果需要从完整 GitHub 地址安装：
+
+```bash
+npx skills add https://github.com/PL-FE/softcopyright-format
+```
+
+### 本地手动安装
+
+
 ### 前置要求
 
 - **Node.js >= 14.0.0** (必需)
